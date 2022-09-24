@@ -1,5 +1,5 @@
 {% set name = "python-clingox" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/potassco/{{ name }}/archive/v{{ version }}.zip
-  sha256: a368c43e25512bbe680dbac51e5a0bbc21e5d3f9fda8873c936c58d9432ee973
+  sha256: e97d2031cbed97d88d01999f6e3b22cf2653864a7fd2db6ff022a6714b8428fb
 
 build:
   noarch: python
