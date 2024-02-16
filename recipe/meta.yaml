@@ -1,5 +1,5 @@
 {% set name = "python-clingox" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/potassco/{{ name }}/archive/v{{ version }}.zip
-  sha256: e97d2031cbed97d88d01999f6e3b22cf2653864a7fd2db6ff022a6714b8428fb
+  sha256: 163f43fad23651af1c325045700807b83b9d5702254aa6bdf9b79a161e8e7cc7
 
 build:
   noarch: python
@@ -28,6 +28,9 @@ test:
     - clingox.ast
     - clingox.backend
     - clingox.program
+    - clingox.reify
+    - clingox.solving
+    - clingox.testing
     - clingox.theory
   requires:
     - pip
