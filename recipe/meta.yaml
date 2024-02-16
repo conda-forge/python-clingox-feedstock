@@ -28,6 +28,9 @@ test:
     - clingox.ast
     - clingox.backend
     - clingox.program
+    - clingox.reify
+    - clingox.solving
+    - clingox.testing
     - clingox.theory
   requires:
     - pip
